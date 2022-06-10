@@ -4,7 +4,7 @@ mass queue to clipboard from text file with the option of a delimiter
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install keyboard, the other required packages are built into python (os,sys)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install keyboard, the other required packages are built into python.
 
 ```bash
 pip install keyboard
