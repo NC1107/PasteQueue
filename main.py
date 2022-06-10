@@ -1,6 +1,7 @@
 import os
 import sys
 import keyboard
+import time
 
 
 def copy_to_clipboard(text):
@@ -24,6 +25,7 @@ def begin_queue(queue):
         if keyboard.is_pressed('ctrl+v'):
             copy_to_clipboard(queue.pop(0))
             size -= 1
+            time.sleep(.1)
         else:
             continue
         
